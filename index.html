@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700;800&display=swap"
@@ -14,22 +14,25 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class>
         <img class="logo" src="img/logo.png" alt="Logo" />
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a class="active" href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
+      <div class="header__intro">
+        <img src="img/bg.png" alt="nature background" style="width: 100%" ; />
+        <div class="text__block">
+          <h1>Hi, I am <span>ANETA WEBBIE</span></h1>
+          <p>I am a full stack developer</p>
+        </div>
+      </div>
     </header>
-    <!--insert bg img in the css-->
-    <div>
-      <h1>Hi, I am Aneta Webbie.</h1>
-      <p>I am a full stack developer</p>
-    </div>
+
     <main>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facere
